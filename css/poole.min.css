@@ -3,7 +3,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    text-align: center 
+    text-align: center;
 }
 
 html, body {
@@ -202,6 +202,7 @@ img {
     max-width: 100%;
     margin: 0 0 1rem;
     border-radius: 5px;
+    display: block;
 }
 
 table {

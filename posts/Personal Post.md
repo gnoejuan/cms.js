@@ -1,18 +1,16 @@
 ---
 layout: post
-title: Personal Test
+title: Useful links
 ---
 
-##### hey
+[Typoria](https://www.typora.io/) : The Markdwon editor I'm using. 
 
-#### hey
+![CMS.js Logo](https://raw.githubusercontent.com/cdmedia/cms.js/gh-pages/img/logo-md.png)
 
-### hey
+[CMS.js](https://cdmedia.github.io/cms.js/) : A Content Media System that can be hosted on github, simplifying concerns about finding a proper hosting company and paying for overhead. 
 
-# HEY!
+![image](http://burnerdev.info/images/icons/icon-gitkraken.png)
 
-Do I have your __attention__ now?
 
-<a href="http://static1.1.sqspcdn.com/static/f/1146375/19953776/1345525808077/GJB_podcast_600x600.png?token=r2Jrmjw5%2B%2FRoWbde4MDiMZz7U7o%3D" target="_blank">Good</a>
 
-Be Peaceful: ![SPREAD PEACE, NOW](http://www.shenzhen-standard.com/wp-content/uploads/2012/02/Peaceful-350x350.jpg)
+[GitKraken](https://www.gitkraken.com/) : A GUI GIT interface. 

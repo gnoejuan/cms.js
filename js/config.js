@@ -24,7 +24,7 @@ $(function() {
     postsFolder: 'posts',
 
     // Homepage posts snippet length
-    postSnippetLength: 120,
+    postSnippetLength: 0,
 
     // Pages folder name
     pagesFolder: 'pages',
@@ -42,14 +42,14 @@ $(function() {
     postsOnUrl: '',
 
     // Site fade speed
-    fadeSpeed: 300,
+    fadeSpeed: 200,
 
     // Site footer text
     footerText: '&copy; ' + new Date().getFullYear() + ' All Rights Reserved.',
 
     // Mode 'Github' for Github Pages, 'Server' for Self Hosted. Defaults
     // to Github
-    mode: 'Github',
+    mode: 'Server',
 
      // If Github mode is set, your Github username and repo name.
     githubUserSettings: {
@@ -73,7 +73,7 @@ $(function() {
     tables: true,
     breaks: false,
     pedantic: false,
-    sanitize: true,
+    sanitize: false,
     smartLists: true,
     smartypants: false
   });
