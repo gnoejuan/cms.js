@@ -47,3 +47,18 @@ title: Fresh Computer Install
 
 [GitKraken](https://www.gitkraken.com/) : git GUI interface
 
+[Docker for Windows](https://docs.docker.com/docker-for-windows/)
+
+[typora:](https://www.typora.io/) Desktop markdown editor
+
+[Wordpress](https://wordpress.org/download/)
+
+[Grav CMS](https://getgrav.org/)
+
+[Android Studio](https://developer.android.com/studio/index.html)
+
+[Postgresql](https://www.postgresql.org/)
+
+[Fiddler](http://www.telerik.com/fiddler)
+
+[Flowchart:](https://github.com/tchoulihan/flowchat) An open-source, live updating, threaded chat platform with voting
