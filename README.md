@@ -1,3 +1,5 @@
+[My page](https://gnoejuan.github.io/cms.js/)
+
 ![CMS.js Logo](https://raw.githubusercontent.com/cdmedia/cms.js/gh-pages/img/logo-md.png)
 
 CMS.js is fully client-side, Javascript site generator in the spirit of [Jekyll](https://github.com/jekyll/jekyll)
@@ -35,7 +37,7 @@ Use apache mode if you choose to self host your content. If you choose this opti
 3. Make sure to set your `githubUserSettings` in `js/config.js` if using Github mode
 4. If using Github mode, create a new branch from your master called `gh-pages`
    (Github's default branch for hosting)
-4. Visit your site!
+5. Visit your site!
 
 
 ## How it works
