@@ -3,17 +3,21 @@ layout: post
 title: General Wishlist
 ---
 
+- Replacement battery for HP Pavilion dv6. HP Spare 593554-001 CT: 6bugrc1b71IP5j 
+
 - Ramp for the chihuahuas, mainly so they can get on the bed in their old age without much effort.
 
 - LED lights ( or lamp to replace the three headed one).
 
 - Something to hold the towels and possibly clean clothes next to the shower.
 
+- [This t-shit.  XL](https://swag.devrant.io/products/devrant-big-icon-t-shirt)
+
 - Battery Organizer [Quick Suggestion](https://www.amazon.com/Stalwart-75-ST6015-Battery-Organizer-Tester/dp/B01I54ONFA) 
 
 - HTC 10 [link](http://www.htc.com/us/smartphones/htc-10/)
 
--  [Case Suggestion](http://www.spigen.com/collections/htc/products/htc-10-case-rugged-armor)
+- [Case Suggestion](http://www.spigen.com/collections/htc/products/htc-10-case-rugged-armor)
 
 - [PS3 clip for phones](https://www.amazon.com/Controller-CEStore-Adjustable-Smartphones-Playstation/dp/B01EL5A5AY/ref=sr_1_47?rps=1&ie=UTF8&qid=1475559314&sr=8-47&keywords=htc+one+m10+case&refinements=p_85%3A2470955011)
 
@@ -23,7 +27,7 @@ title: General Wishlist
 
 - Graphics Card, nothing special. [Quick suggestion: Video Review](https://www.youtube.com/watch?v=OnB4e4wk2CI)
 
--  LGA1150 compatible cooling (Suggestion coming soon)
+- LGA1150 compatible cooling (Suggestion coming soon)
 
 - 2DS and Smash Bros
 
