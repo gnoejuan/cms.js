@@ -3,6 +3,8 @@ layout: post
 title: General Wishlist
 ---
 
+- Replacement battery for HP Pavilion dv6. HP Spare 593554-001 CT: 6bugrc1b71IP5j 
+
 - Ramp for the chihuahuas, mainly so they can get on the bed in their old age without much effort.
 
 - Desktop Cart [like from this search](https://www.amazon.com/s/ref=sr_pg_1?rh=i%3Aaps%2Ck%3Adesktop+cart&keywords=desktop+cart&ie=UTF8&qid=1475784578&spIA=B00GM477G8,B00RQ3JQMM,B00UW2IRJ2,B003HULPGS,B00BXOGHQI,B01B567DNY,B01FYBXM2M,B00HG0HQYA,B01BMULFAA,B00Y3P0K1M)
@@ -18,6 +20,8 @@ title: General Wishlist
 - Battery Organizer [Quick Suggestion](https://www.amazon.com/Stalwart-75-ST6015-Battery-Organizer-Tester/dp/B01I54ONFA)
 
 - Boots: mainly for the rain and mowing the yard.
+
+- [This t-shit.  XL](https://swag.devrant.io/products/devrant-big-icon-t-shirt)
 
 - Gloves like [this](https://www.amazon.com/dp/B01DL0Y24U?psc=1)
 
