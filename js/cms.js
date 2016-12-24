@@ -31,7 +31,7 @@ var CMS = {
     postsOnFrontpage: true,
     pageAsFrontpage: '',
     postsOnUrl: '',
-    loader: '<div class="loader">Loading...</div>',
+    loader: '<div class="circ"><div class="load">Loading...</div><div class="hands"></div><div class="body"></div><div class="head"><div class="eye"></div></div></div>',
     get siteAttributes() {
       return [
         { attr: 'title', value: CMS.settings.siteName },
@@ -154,7 +154,7 @@ var CMS = {
         postDate = $tpl.find('.post-date'),
         postSnippet = $tpl.find('.post-content');
 
-      postLink.on('click', function (e) {
+      postLink.on('click', function (e) { 
         e.preventDefault();
         window.location.hash = 'post/' + post.id;
       });
@@ -371,24 +371,27 @@ var CMS = {
   },
 
   setNavigation: function () {
-
-    var navBuilder = ['<ul>'];
+    var navBuilder = ['<div class="sidebar">','<div class="container sidebar-sticky">','<div class="sidebar-about"><h1><a href="#" title="Home">'+ CMS.settings.siteName + '</a></h1><p class="lead">'+ CMS.settings.siteTagline + '</p></div>','<div class="sidebar-nav>"'];
     CMS.settings.siteNavItems.forEach(function (navItem) {
       if (navItem.hasOwnProperty('href')) {
-        navBuilder.push('<li><a href="', navItem.href, '"');
+        navBuilder.push('<div class="sidebar-nav-item"><a href="', navItem.href, '"');
         if (navItem.hasOwnProperty('newWindow') && navItem.newWindow) {
           navBuilder.push('target="_blank"');
         }
-        navBuilder.push('>', navItem.name, '</a></li>');
+        navBuilder.push('>', navItem.name, '</a></div>');
       } else {
         CMS.pages.forEach(function (page) {
           if (navItem.name == page.title) {
-            navBuilder.push('<li><a href="#" class="cms_nav_link" id="', navItem.name, '">', navItem.name, '</a></li>');
+            navBuilder.push('<div><a href="#" class="cms_nav_link sidebar-nav-item" id="', navItem.name, '">', navItem.name, '</a></div>');
           }
         });
       }
     });
-    navBuilder.push('</ul>');
+    CMS.posts.sort(function (a, b) { return CMS.settings.sortDateOrder ? b.date - a.date : a.date - b.date; });
+    CMS.posts.forEach(function(post){
+      navBuilder.push('<div><a href="#" class="cms_post_nav" id="', post.id, '">', post.title, '</a></div>');
+    });
+    navBuilder.push('</div></div></div>');
     var nav = navBuilder.join('');
 
     $(document.getElementsByClassName('cms_nav')).html(nav);
@@ -399,6 +402,13 @@ var CMS = {
       $(this).on('click', function (e) {
         e.preventDefault();
         window.location.hash = 'page/' + title;
+      });
+    });
+    $.each($(document.getElementsByClassName('cms_post_nav')),function (k, link){
+      var title = $(this).attr('id');
+      $(this).on('click', function (e){
+        e.preventDefault();
+        window.location.hash = 'post/' + title;
       });
     });
   },
