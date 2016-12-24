@@ -24,7 +24,7 @@ $(function() {
     postsFolder: 'posts',
 
     // Homepage posts snippet length
-    postSnippetLength: 0,
+    postSnippetLength: 500,
 
     // Pages folder name
     pagesFolder: 'pages',
@@ -34,6 +34,8 @@ $(function() {
 
     // Posts on Frontpage (blog style)
     postsOnFrontpage: true,
+
+    loader: '<div class="circ"><div class="load">Loading...</div><div class="hands"></div><div class="body"></div><div class="head"><div class="eye"></div></div></div>',
 
     // Page as Frontpage (static)
     pageAsFrontpage: '',
