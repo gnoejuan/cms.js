@@ -24,14 +24,14 @@ html {
 }
 
 body {
-    color: #268bd2;
+    color: bisque;
     background-color: #515151;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 
 a {
-    color: #ffce3a;
+    color: aqua;
     text-decoration: none;
 }
 
@@ -269,7 +269,7 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
 }
 
 .page-title, .post-title, .post-title a {
-    color: #ffce3a;
+    color: aliceblue;
 }
 
 .page-title, .post-title {
