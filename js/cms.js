@@ -21,7 +21,7 @@ var CMS = {
     ],
     pagination: 3,
     postsFolder: 'posts',
-    postSnippetLength: 120,
+    postSnippetLength: 0,
     pagesFolder: 'pages',
     fadeSpeed: 300,
     mainContainer: $(document.getElementsByClassName('cms_main')),

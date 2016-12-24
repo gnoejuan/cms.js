@@ -3,20 +3,20 @@ $(function() {
   CMS.init({
 
     // Name of your site or location of logo file, relative to root directory (img/logo.png)
-    siteName: 'My Site',
+    siteName: 'Musing',
 
     // Tagline for your site
-    siteTagline: 'Your site tagline',
+    siteTagline: 'Just trying stuff out',
 
     // Email address
-    siteEmail: 'your_email@example.com',
+    siteEmail: 'provenhypothesis@gmail.com',
 
     // Name
-    siteAuthor: 'Your Name',
+    siteAuthor: 'Charles Rodriguez',
 
     // Navigation items
     siteNavItems: [
-      { name: 'Github', href: 'https://github.com/yourname', newWindow: false},
+      { name: 'Github', href: 'https://github.com/gnoejuan', newWindow: true},
       { name: 'About'}
     ],
 
@@ -24,7 +24,7 @@ $(function() {
     postsFolder: 'posts',
 
     // Homepage posts snippet length
-    postSnippetLength: 120,
+    postSnippetLength: 0,
 
     // Pages folder name
     pagesFolder: 'pages',
@@ -42,7 +42,7 @@ $(function() {
     postsOnUrl: '',
 
     // Site fade speed
-    fadeSpeed: 300,
+    fadeSpeed: 200,
 
     // Site footer text
     footerText: '&copy; ' + new Date().getFullYear() + ' All Rights Reserved.',
@@ -53,8 +53,8 @@ $(function() {
 
      // If Github mode is set, your Github username and repo name.
     githubUserSettings: {
-      username: 'yourusername',
-      repo: 'yourrepo'
+      username: 'gnoejuan',
+      repo: 'cms.js'
     },
 
     // If Github mode is set, choose which Github branch to get files from.
@@ -73,7 +73,7 @@ $(function() {
     tables: true,
     breaks: false,
     pedantic: false,
-    sanitize: true,
+    sanitize: false,
     smartLists: true,
     smartypants: false
   });
